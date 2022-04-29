@@ -2,16 +2,20 @@
 /* CSS Document */
 
 <style>
+
 body {
 	color: black;
 	}
+
 h1 {
 	color: black;
 	text-align: center;
 	font-size: 3em;
 	font-family: georgia, serif;
 }
-ul.square {list-style-type: square;}
+ul.square {
+	list-style-type: square;
+}
 
 ul.nav li a  {
 	text-decoration: none;
@@ -37,4 +41,45 @@ ul#navlist {
 margin-left: 30px;
 padding: 0;
 list-style-type: none;
+}
+
+#wrapper {
+	width: 800px;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid red;
+}
+
+#col1 {
+	width: 180px;
+	height: 170px;
+	float: left;
+	border: none;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-color: none
+}
+
+#col2 {
+	width: 590px;
+	height: 200px;
+	float: left;
+	border: solid 1px black;
+	background-color: #ccddee;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-color: #fabf8f;
+}
+
+#footer {
+	width: 350px;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: solid 1px black;
+	background-color: #c6d9f1;
+	clear: both;
 }
