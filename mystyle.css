@@ -1,5 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<style>
 body {
-	color: blue;
+	color: black;
 	}
 h1 {
 	color: black;
@@ -8,3 +12,29 @@ h1 {
 	font-family: georgia, serif;
 }
 ul.square {list-style-type: square;}
+
+ul.nav li a  {
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	border: 2px solid: darkgreen;
+	padding: 5px;
+	background-color: #ccccff;
+	color: darkgreen;
+	margin-top: 5px;
+}
+
+ul#navlist li a {
+text-decoration: none;
+display: block;
+width: 100px;
+border: 2px solid #595757;
+padding: 5px;
+margin-top: 5px;
+}
+
+ul#navlist {
+margin-left: 30px;
+padding: 0;
+list-style-type: none;
+}
